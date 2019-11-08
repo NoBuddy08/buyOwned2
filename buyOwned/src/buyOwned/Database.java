@@ -26,6 +26,7 @@ public class Database {
 				{
 					Class.forName("com.mysql.jdbc.Driver");
 					con=DriverManager.getConnection("jdbc:mysql://localhost:3306/buyowned","root","");
+					//con=DriverManager.getConnection("jdbc:mysql://remotemysql.com:3306/GQhAHwFOTx","GQhAHwFOTx","oPejJc9GKW");  // for online database
 					System.out.println("Connection Established");
 				}
 				else
